@@ -7,7 +7,7 @@ namespace CompressionStocking
 	public enum Direction
 	{
 		Forward,
-		Backward,
+		Backward
 	}
 	public interface IPump
 	{

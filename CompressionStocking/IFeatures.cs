@@ -4,10 +4,11 @@ using System.Text;
 
 namespace CompressionStocking
 {
-	public interface ITimer
+
+	public interface IFeatures
 	{
-		void CompressTimer();
-		void DecompressTimer();
+		void On();
+		void Off();
 
 	}
 }

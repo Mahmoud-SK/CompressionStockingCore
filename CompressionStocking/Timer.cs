@@ -7,9 +7,15 @@ namespace CompressionStocking
 {
 	public class Timer : ITimer
 	{
-		public void StartTimer(int time)
+		public void CompressTimer()
 		{
-			Thread.Sleep(time*1000);
+			Thread.Sleep(5000);
+
+		}
+		public void DecompressTimer()
+		{
+			Thread.Sleep(2000);
+
 		}
 	}
 }
